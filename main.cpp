@@ -258,7 +258,7 @@ void cleanContacts (AddressBook * addb){
                     cout<< "Are you sure you want to exit program? (Yes/No)";
                     cin >> choice;
                     
-                    if (choice == 'Y'|| 'y'){
+                    if (choice == 'Y'|| choice == 'y'){
                         cout << "Exiting program...";
                         return 0;
                     }
